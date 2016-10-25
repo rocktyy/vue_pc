@@ -1,3 +1,4 @@
+
 <template>
   <div id="firstcomponent">
     <h1>I am a component.</h1>
@@ -15,6 +16,5 @@ export default {
 }
 </script>
 
-<style>
-
+<style> 
 </style>

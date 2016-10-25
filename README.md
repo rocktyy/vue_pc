@@ -17,16 +17,16 @@ https://aotu.io/notes/2016/10/13/vue2/?o2src=juejin&o2layout=compat
 
 2.webpack  学习
 
-/* dev 打开浏览器(HMR，模块热部署。)   build执行打包命令 */
+//  dev 打开浏览器(HMR，模块热部署。)   build执行打包命令
 
 "scripts": {
-    "dev": "webpack-dev-server --open --inline --hot",
+    "dev": "webpack-dev-server --open --inline --hot",  <br/>
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
 },
 
-a. https://segmentfault.com/q/1010000005694821/a-1020000005702442   (npm run dev和build 介绍)
-b. http://developer.51cto.com/art/201510/493477.htm      ( webpack详解 )
-c.https://segmentfault.com/a/1190000005811347?_ea=934705   （使用cross-env解决跨平台设置NODE_ENV的问题）
+a. https://segmentfault.com/q/1010000005694821/a-1020000005702442   (npm run dev和build 介绍)  <br/>
+b. http://developer.51cto.com/art/201510/493477.htm      ( webpack详解 )  <br/>
+c.https://segmentfault.com/a/1190000005811347?_ea=934705   （使用cross-env解决跨平台设置NODE_ENV的问题<br/>
 
 3.如何降低Vue.js项目中Webpack打包文件的大小
 

@@ -9,17 +9,16 @@ https://aotu.io/notes/2016/10/13/vue2/?o2src=juejin&o2layout=compat
 
 创建命令:
 
-# install dependencies
-npm install
+#npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+#npm run dev
 
-# build for production with minification
-npm run build
+#npm run build
 
 2.webpack  学习
+
 /* dev 打开浏览器(HMR，模块热部署。)   build执行打包命令 */
+
 "scripts": {
     "dev": "webpack-dev-server --open --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"

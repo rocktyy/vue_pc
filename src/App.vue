@@ -23,7 +23,6 @@ export default {
   components: { firstcomponent, secondcomponent }
 }
 
-
 </script>
 
 <style>

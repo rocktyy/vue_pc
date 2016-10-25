@@ -7,7 +7,7 @@
 1.demo选择 (感谢)
 https://aotu.io/notes/2016/10/13/vue2/?o2src=juejin&o2layout=compat
 
-创建命令:
+#创建命令:
 
 #npm install
 
